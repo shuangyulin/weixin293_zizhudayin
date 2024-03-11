@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.dao.DayindianDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.entity.DayindianEntity" id="dayindianMap">
+        <result property="dianzhangzhanghao" column="dianzhangzhanghao"/>
+        <result property="dianpumingcheng" column="dianpumingcheng"/>
+        <result property="dianpudizhi" column="dianpudizhi"/>
+        <result property="dianzhangxingming" column="dianzhangxingming"/>
+        <result property="lianxishouji" column="lianxishouji"/>
+        <result property="dianputupian" column="dianputupian"/>
+        <result property="zhuyingyewu" column="zhuyingyewu"/>
+        <result property="yingyeshijian" column="yingyeshijian"/>
+        <result property="dianpujianjie" column="dianpujianjie"/>
+    </resultMap>
+
+	<select id="selectListVO"
+		resultType="com.entity.vo.DayindianVO" >
+		SELECT * FROM dayindian  dayindian         
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectVO"
+		resultType="com.entity.vo.DayindianVO" >
+		SELECT  dayindian.* FROM dayindian  dayindian 	
+ 		<where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+
+    <select id="selectListView"
+		resultType="com.entity.view.DayindianView" >
+
+		SELECT  dayindian.* FROM dayindian  dayindian 	        
+        <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+	<select id="selectView"
+		resultType="com.entity.view.DayindianView" >
+		SELECT * FROM dayindian  dayindian <where> 1=1 ${ew.sqlSegment}</where>
+	</select>
+	
+
+</mapper>

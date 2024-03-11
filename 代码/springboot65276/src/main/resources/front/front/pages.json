@@ -1,0 +1,261 @@
+{
+    "easycom": {
+    	"^z-(.*)": "@zebra-ui/swiper/components/z-$1/z-$1.vue"
+    },
+	"pages": [{
+		"path": "pages/login/login",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "登录"
+		}
+	}, {
+		"path": "pages/register/register",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "注册"
+		}
+	}, {
+		"path": "pages/forget/forget",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "忘记密码"
+		}
+	}, {
+		"path": "pages/center/center",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "我的"
+		}
+	}, {
+		"path": "pages/user-info/user-info",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "用户信息"
+		}
+	}
+	, {
+		"path": "pages/news-detail/news-detail",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "资讯详情"
+		}
+	}
+	,{
+		"path": "pages/yonghu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/yonghu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/yonghu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/dianzhang/list",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/dianzhang/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/dianzhang/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/dayindian/list",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/dayindian/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/dayindian/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/dayinfuwu/list",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/dayinfuwu/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/dayinfuwu/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/fuwuleixing/list",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/fuwuleixing/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/fuwuleixing/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/yuyuedayin/list",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/yuyuedayin/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/yuyuedayin/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/storeup/list",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/storeup/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/storeup/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	,{
+		"path": "pages/news/list",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/news/add-or-update",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	},{
+		"path": "pages/news/detail",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black"
+		}
+	}
+	, {
+		"path": "pages/pay-confirm/pay-confirm",
+		"style": {
+			"navigationBarTitleText": "确认支付"
+		}
+	}
+	, {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarBackgroundColor": "#BDDFE5",
+			"navigationBarTextStyle": "black",
+			"navigationBarTitleText": "首页"
+		}
+	}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "微信小程序的校园自助打印系统",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#BBBBBB",
+		"selectedColor": "#BDDFE5",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/index.png",
+				"selectedIconPath": "static/tabs/index1.png",
+				"text": "首页"
+			}
+			
+
+			,{
+				"pagePath": "pages/dayindian/list",
+				"iconPath": "/static/tabs/icon1.png",
+				"selectedIconPath": "/static/tabs/icon1_act.png",
+				"text": "打印店"
+			}
+			,{
+				"pagePath": "pages/dayinfuwu/list",
+				"iconPath": "/static/tabs/icon2.png",
+				"selectedIconPath": "/static/tabs/icon2_act.png",
+				"text": "打印服务"
+			}
+
+
+
+
+
+
+			,{
+				"pagePath": "pages/center/center",
+				"iconPath": "static/tabs/mine.png",
+				"selectedIconPath": "static/tabs/mine1.png",
+				"text": "我的"
+			}
+		]
+	}
+}
